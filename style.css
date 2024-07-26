@@ -1,0 +1,272 @@
+@media all{
+	body.printView, body.printView:before, body.printView:after { 
+		border : none !important;
+	}
+
+   
+    body{
+        background-color:rgb(235, 235, 235);
+    }
+
+.certificate-wrapper {
+    overflow: hidden;
+    width: 297mm;
+    height: 210mm;
+    position: relative;
+    background: white !important;
+    line-height: normal;
+ }
+
+.certificate-wrapper .certificate-background {
+    left: 0mm;
+    top: auto;
+    width: 297mm;
+    height: 210mm;
+    overflow: hidden;
+    position: relative;
+ }
+
+  .certificate-wrapper .certificate-background .tri1{
+    width: 0mm;
+	height: 0mm;
+	border-left: 150pt solid transparent;
+	border-right: 160pt solid transparent;
+	border-top: 420pt solid rgb(49, 47, 47) !important;
+    position:absolute;
+    left:-10mm;
+ }
+
+ .certificate-wrapper .certificate-background .tri2{
+    width: 0mm;
+	height: 0mm;
+	border-left: 120pt solid transparent;
+	border-right: 110pt solid transparent;
+	border-top: 280pt solid rgb(245 167 1) !important;
+    position:absolute;
+ }
+
+ .certificate-wrapper .certificate-background .tri3{
+    width: 0mm;
+	height: 0mm;
+	border-left: 50pt solid transparent;
+	border-right: 50pt solid transparent;
+	border-top: 100pt solid rgb(49, 47, 47) !important;
+    position:absolute;
+    left:24mm;
+ }
+
+ 
+ .certificate-wrapper .certificate-background .tri4{
+    width: 0mm;
+	height: 0mm;
+	border-top: 100pt solid transparent;
+	border-left: 200pt solid rgb(49, 47, 47) !important;
+	border-bottom: 500pt solid transparent;
+ }
+
+ .certificate-wrapper .certificate-background .recttop {
+  width: 60mm; 
+  height: 10mm; 
+  background-color:rgb(245 167 1) !important;
+  position: absolute;
+  left: 4mm; 
+  top: 85mm; 
+  transform: translateX(-50%) translateY(-50%) rotate(-69deg); 
+ }
+
+.certificate-wrapper .certificate-background .rectleft {
+  width: 90mm; 
+  height: 10mm; 
+  background-color:rgb(245 167 1) !important;
+  position: absolute;
+  left: 10mm; 
+  top: 130mm; 
+  transform: translateX(-50%) translateY(-50%) rotate(-70deg);  
+ }
+
+.certificate-wrapper .certificate-background .boxx {
+  width: 116mm; 
+  height: 20mm; 
+  background-color: rgb(49, 47, 47) !important; 
+  position: absolute;
+  right: 4mm; 
+  top: 25mm; 
+  transform: translateX(50%) translateY(50%) rotate(60deg); 
+ }
+
+.certificate-wrapper .certificate-background .rectbtm {
+  width: 53mm; 
+  height: 18mm; 
+  background-color: rgb(245 167 1) !important;
+  position: absolute;
+  right: 0mm; 
+  top: 0mm; 
+  transform: translateX(50%) translateY(50%) rotate(60deg); 
+ }
+
+.certificate-wrapper .certificate-background .rectright {
+  width: 60mm; 
+  height: 18mm; 
+  background-color: rgb(49, 47, 47) !important; 
+  position: absolute;
+  right: 7mm; 
+  bottom: 0mm; 
+  transform: translateX(50%) translateY(50%) rotate(-60deg); 
+ }
+
+.certificate-wrapper .certificate-background .boxbtm {
+  width: 124mm; 
+  height: 25mm; 
+  background-color: rgb(245 167 1) !important; 
+  position: absolute;
+  right: 20mm; 
+  bottom: 20mm; 
+  transform: translateX(50%) translateY(50%) rotate(-60deg); 
+ }
+
+.certificate-wrapper .certificate-background .boxtop {
+  width: 190mm; 
+  height: 10mm; 
+  background-color: rgb(49, 47, 47) !important; 
+  position: absolute;
+  right: 43mm; 
+  bottom: 15mm; 
+  transform: translateX(50%) translateY(50%) rotate(-60deg); 
+ }
+
+.certificate-wrapper .certificate-content {
+    top: 8mm;
+    right: 20mm;
+    bottom: 20mm;
+    left: 3mm;
+    position: absolute;
+    width:250mm;
+    height:150mm;
+ }  
+
+.certificate-wrapper .certificate-content .title {
+    position: absolute;
+    left: 110mm;
+    top: 18mm;
+    right: 0mm;
+    font-size: 60pt;
+    text-align: center;
+    margin: auto;
+    font-family: Oswald;
+    line-height: normal;
+    word-spacing: 0.5mm;
+ }  
+
+.certificate-wrapper .certificate-content .subtitle {
+    position: absolute;
+    left: 130mm;
+    top: 43mm;
+    right: 0mm;
+    font-family: Playfair Display;
+    font-size: 30pt;
+    text-align: center;
+    margin: auto;
+  }
+
+.certificate-wrapper .certificate-content .initial-content {
+    position: absolute;
+    left: 90mm;
+    top: 65mm;
+    right: 0mm;
+    font-size: 20pt;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    font-family: Kanit;
+ }  
+
+.certificate-wrapper .certificate-content .candidate-name {
+    position: absolute;
+    left: 102mm;
+    top: 85mm;
+    right: 0mm;
+    font-family: Great Vibes;
+    font-size: 40pt;
+    text-align: center;
+    margin: auto;
+    word-spacing: 2mm;
+    position: absolute;
+  }
+
+  
+.certificate-wrapper .certificate-content .main-content {
+    position: absolute;
+    left: -25mm;
+    top: 110mm;
+    right: 0mm;
+    font-size: 16pt;
+    text-align:right;
+    margin: auto;
+    position: relative;
+    border : none;
+    line-height : normal;
+ }  
+
+
+.certificate-wrapper .certificate-content .date {
+    left: 106mm;
+    top: 170mm;
+    bottom:100mm;
+    font-size: 18pt;
+    font-family: Kanit;
+    position: absolute;
+    line-height : 8mm;
+}
+
+.certificate-wrapper .certificate-content .line1{
+    width: 50mm;
+    height: 13mm;
+    top:155mm;
+    left:90mm;
+    border-bottom: 1pt solid black !important;
+    position: absolute;
+
+}
+
+.certificate-wrapper .certificate-content .line2{
+    width: 50mm;
+    height: 13mm;
+    top:155mm;
+    left:185mm;
+    border-bottom: 1pt solid black !important;
+    position: absolute;
+
+}
+
+.certificate-wrapper .certificate-content .sign-president {
+    left: 192mm;
+    top: 169mm;
+    font-size: 18pt;
+    position: absolute;
+    font-family: Kanit;
+  }
+
+.certificate-wrapper .certificate-content .sign-president-img {
+      top: 157mm;
+      left: 192mm;
+      width : 30mm;
+      height : 10mm;
+      position : absolute;
+ }
+
+.certificate-wrapper .certificate-content .dname{
+      top: 160mm;
+      left: 97mm;
+      font-size: 20pt;
+      position : absolute;
+           
+ }
+
+.certificate-wrapper .certificate-content .org-logo Img{
+    width:75mm;
+    height:60mm;
+    position:absolute;
+    top:0mm;
+    left:0mm;
+ }
+}
