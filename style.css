@@ -125,8 +125,8 @@
  }
 
 .certificate-wrapper .certificate-background .boxtop {
-  width: 190mm; 
-  height: 10mm; 
+  width: 192mm; 
+  height: 11mm; 
   background-color: rgb(49, 47, 47) !important; 
   position: absolute;
   right: 43mm; 
@@ -147,7 +147,7 @@
 .certificate-wrapper .certificate-content .title {
     position: absolute;
     left: 110mm;
-    top: 18mm;
+    top: 10mm;
     right: 0mm;
     font-size: 60pt;
     text-align: center;
@@ -160,7 +160,7 @@
 .certificate-wrapper .certificate-content .subtitle {
     position: absolute;
     left: 130mm;
-    top: 43mm;
+    top: 35mm;
     right: 0mm;
     font-family: Playfair Display;
     font-size: 30pt;
@@ -171,7 +171,7 @@
 .certificate-wrapper .certificate-content .initial-content {
     position: absolute;
     left: 90mm;
-    top: 65mm;
+    top: 57mm;
     right: 0mm;
     font-size: 20pt;
     text-align: center;
@@ -183,7 +183,7 @@
 .certificate-wrapper .certificate-content .candidate-name {
     position: absolute;
     left: 102mm;
-    top: 85mm;
+    top: 76mm;
     right: 0mm;
     font-family: Great Vibes;
     font-size: 40pt;
@@ -197,7 +197,7 @@
 .certificate-wrapper .certificate-content .main-content {
     position: absolute;
     left: -25mm;
-    top: 110mm;
+    top: 100mm;
     right: 0mm;
     font-size: 16pt;
     text-align:right;
@@ -208,65 +208,128 @@
  }  
 
 
-.certificate-wrapper .certificate-content .date {
-    left: 106mm;
-    top: 170mm;
+.certificate-wrapper .certificate-content .sign-director {
+    left: 60mm;
+    top: 160mm;
     bottom:100mm;
-    font-size: 18pt;
+    font-size: 15pt;
     font-family: Kanit;
     position: absolute;
     line-height : 8mm;
 }
 
 .certificate-wrapper .certificate-content .line1{
-    width: 50mm;
+    width: 64mm;
     height: 13mm;
-    top:155mm;
-    left:90mm;
+    top:146mm;
+    left:58mm;
     border-bottom: 1pt solid black !important;
     position: absolute;
 
 }
 
-.certificate-wrapper .certificate-content .line2{
-    width: 50mm;
-    height: 13mm;
-    top:155mm;
-    left:185mm;
-    border-bottom: 1pt solid black !important;
-    position: absolute;
-
+.certificate-wrapper .certificate-content .sign-director-img{
+    top: 145mm;
+    left: 70mm;
+    font-size: 20pt;
+    position : absolute;
+    width:40mm;
+    height:13mm;
+         
 }
+
 
 .certificate-wrapper .certificate-content .sign-president {
-    left: 192mm;
-    top: 169mm;
-    font-size: 18pt;
+    left: 163mm;
+    top: 161mm;
+    font-size: 15pt;
     position: absolute;
     font-family: Kanit;
   }
 
+  .certificate-wrapper .certificate-content .line2{
+    width: 64mm;
+    height: 13mm;
+    top:147mm;
+    left:161mm;
+    border-bottom: 1pt solid black !important;
+    position: absolute;
+
+}
+
 .certificate-wrapper .certificate-content .sign-president-img {
-      top: 157mm;
-      left: 192mm;
-      width : 30mm;
+      top: 150mm;
+      left: 178mm;
+      width : 40mm;
       height : 10mm;
       position : absolute;
  }
 
-.certificate-wrapper .certificate-content .dname{
-      top: 160mm;
-      left: 97mm;
-      font-size: 20pt;
-      position : absolute;
-           
- }
-
-.certificate-wrapper .certificate-content .org-logo Img{
+.certificate-wrapper .certificate-content .certificate-logo Img{
     width:75mm;
     height:60mm;
     position:absolute;
     top:0mm;
     left:0mm;
  }
+
+ .certificate-wrapper .certificate-content .org-name {
+    position: absolute;
+    left: auto;
+    top:179mm;
+    right: 26mm;
+    text-align: right;
+    font-size: 18pt;
+    font-weight: bold;
+    position: absolute;
+  }
+  .certificate-wrapper .certificate-content .org-address {
+    right: 26mm;
+    top:186mm;
+    bottom: 0mm;
+    width: 170mm;
+    text-align: right;
+    font-size: 12pt;
+    font-weight: bold;
+    position: absolute;
+  }
+  .certificate-wrapper .certificate-content .org-address p {
+    margin-bottom: 0mm;
+    margin-top : 0mm;
+  }
+
+  .certificate-wrapper .certificate-content .org-logo img {
+    width:40mm;
+    top:165mm;
+    left:20mm;
+    position:absolute;
+    
+  }
+
+  .certificate-wrapper .certificate-content .date {
+    position: absolute;
+    left:207mm;
+    top: 0mm;
+    right: 1mm;
+    font-size: 15pt;
+    position: absolute;
+  }
+
+  .certificate-wrapper .certificate-content .dname {
+    position: absolute;
+    left: 224mm;
+    top: 0mm;
+    right: 1mm;
+    font-size: 15pt;
+    position: absolute;
+  }
+
+  .certificate-wrapper .certificate-content .sr-no {
+    position: absolute;
+    left: 93mm;
+    top: 0mm;
+    font-size: 16pt;
+    position: absolute;
+  }
+
 }
